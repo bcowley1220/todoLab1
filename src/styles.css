@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background: linear-gradient(to right, #f857a6, #ff5858);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+  height: 100%;
+  width: 100%;
+}
+app-root {
+  height: 100%;
+  width: 100%;
+}
+body,
+app-root {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}

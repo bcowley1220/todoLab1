@@ -1,0 +1,45 @@
+.todo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card {
+  background: #eee;
+  height: 350px;
+  margin-top: 15px;
+  width: 800px;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+button {
+  background: #eee;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  border: #ff69b4 solid 1px;
+  color: #ff69b4;
+  margin: 0px 5px 0px 5px;
+}
+.xButton {
+  border: none;
+  color: black;
+}
+
+.adButton {
+  background: #ff1493;
+  color: #eee;
+}
+input {
+  border: none;
+  background: #eee;
+  font-size: 16px;
+}
+.taskCompleted {
+  text-decoration: line-through gray;
+  margin-left: 5px;
+}

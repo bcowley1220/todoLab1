@@ -1,0 +1,19 @@
+<main [ngClass]="'card'">
+  <h2>TODO List</h2>
+  <p>A place to store your todos</p>
+  <input placeholder="Filter your todo" />
+  <div *ngFor="let todo of todoList; index as i">
+    <div [ngClass]="'todo'">
+      <div [ngClass]="'todo'">
+        <div>{{ i + 1 }}.</div>
+        <button *ngIf="!todo.completed" class="button">
+          Complete
+        </button>
+        <p [ngClass]="{ taskCompleted: todo.completed }">{{ todo.todo }}</p>
+      </div>
+      <button class="xButton">x</button>
+    </div>
+  </div>
+  <input placeholder="Add your to-do" />
+  <button class="adButton">Add</button>
+</main>
